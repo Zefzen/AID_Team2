@@ -36,7 +36,14 @@ header {
 
 header h1 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
     margin-bottom: 1rem;
+    opacity: 0.9;
+    font-weight: 300;
 }
 
 nav ul {
@@ -284,4 +291,48 @@ footer {
         flex-direction: column;
         gap: 0.5rem;
     }
+}
+
+/* Additional Styles for AIT Project */
+.viability-section {
+    margin-top: 2rem;
+}
+
+.viability-section h4 {
+    color: #667eea;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.viability-section ul {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.viability-section li {
+    margin-bottom: 0.3rem;
+}
+
+.next-steps {
+    margin-top: 2rem;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.next-steps h4 {
+    color: #667eea;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.next-steps ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.next-steps li {
+    margin-bottom: 0.3rem;
 }
