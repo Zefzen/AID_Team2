@@ -123,6 +123,12 @@ main {
     font-weight: 500;
 }
 
+#header {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+}
+
 #chalmers-logo {
     display: flex;
     justify-content: center;
