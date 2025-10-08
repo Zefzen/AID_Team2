@@ -201,14 +201,22 @@ main {
 
 /* Team Section */
 .team-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 3rem;
     margin-top: 2rem;
 }
 
 .team-photo {
     text-align: center;
+    width: 100%;
+}
+
+.team-columns {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .team-image {
@@ -225,6 +233,10 @@ main {
 }
 
 .team-members ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 1rem;
     list-style: none;
     padding-left: 0;
 }
