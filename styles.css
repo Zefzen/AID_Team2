@@ -25,6 +25,7 @@ body {
 
 /* Header */
 header {
+    display: flex;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 1.5rem 0;
@@ -120,6 +121,24 @@ main {
     margin-bottom: 2rem;
     color: #555;
     font-weight: 500;
+}
+
+#chalmers-logo {
+    display: flex;
+    justify-content: center;
+}
+
+#chalmers-logo img {
+    min-width: 7rem;
+    max-width: 15rem;
+    height: auto;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
 }
 
 /* Demo Placeholder */
