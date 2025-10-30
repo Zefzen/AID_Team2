@@ -9,13 +9,16 @@
 <body>
     <header id="header">
         <div class="container" id="header-content">
-            <h1>Artificial Intelligence Twin (AIT)</h1>
-            <p class="subtitle">TEK830 - Team 2 - Predictive Maintenance Innovation</p>
+            <div id="title-section">
+                <h1>AID</h1>
+                <p class="subtitle" id="subtitle_header">- Artificial Intelligence Dashboard</p>
+            </div>
+
             <nav>
                 <ul>
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#design-thinking">Design Thinking</a></li>
-                    <li><a href="#background">Background</a></li>
+                    <li><a href="#background">The Team</a></li>
                     <li><a href="#references">References</a></li>
                 </ul>
             </nav>
@@ -34,26 +37,15 @@
             <div class="container">
                 <h2>Overview & Initial Demo</h2>
                 <div class="content">
-                    <h3>Innovation Idea</h3>
-                    <p>
-                        We're building an AI-powered application that uses digital twin technology to revolutionize 
-                        predictive maintenance in industrial settings. Our solution combines machine data, electricity 
-                        usage, and other factors with powerful AI to pinpoint exactly when and how specific parts 
-                        need maintenance, then notifies the required personnel.
-                    </p>
-                    <h3>Problem We're Solving</h3>
-                    <p>
-                        It's hard for engineers to keep track of when machines need maintenance or repair. Today's 
-                        regularly scheduled maintenance is incredibly inefficient since 99% of the time it's not 
-                        strictly necessary at that specific time. There's also over-reliance on experienced workers' 
-                        knowledge, creating complications with "this is how it's always been done" mentality.
-                    </p>
-                    <h3>Target Users</h3>
-                    <p>
-                        Our target users are factory workers and industries dealing with energy consumption 
-                        oscillations or production deficiencies. We focus on technicians, engineers, and 
-                        maintenance managers who need better tools to optimize equipment performance.
-                    </p>
+
+                    <div>
+                        <h3>Innovation Idea</h3>
+                        <p>
+                        We’re developing an AI-powered dashboard solution that predicts exactly when and how industrial machines need maintenance by analyzing real-time data such as machine performance and energy usage. This helps engineers and technicians move beyond inefficient scheduled maintenance, reducing downtime and reliance on traditional methods.
+                        </p>
+                    </div>
+
+                    <h3>Initial Demo</h3>
                     <div class="demo-placeholder">
                         <p><strong>Prototype Dashboard Coming Soon</strong></p>
                         <p>We're developing a dual-view interface: a streamlined dashboard for managers and 
@@ -66,100 +58,185 @@
         <!-- Design Thinking Reflection Section -->
         <section id="design-thinking" class="section section-alt">
             <div class="container">
-                <h2>Design Thinking Reflection</h2>
                 <div class="content">
-                    <div class="design-thinking-grid">
-                        <div class="dt-card">
+                    <div class="design-thinking-content">
+                        <div class="dt-div" id="dt-first-div">
+                            <img src="Images/usability.png" alt="Usability" class="dt-image">
+                            <div class="dt-text">
+                                <h2>Usability</h2>
+                                <p>
+                                We’re developing an AI-powered dashboard for IKEA’s production and logistics facilities that predicts precise maintenance needs using machine data, automating notifications to reduce downtime and manual effort.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="dt-div">
+                            <div class="dt-text">
+                                <h2>Feasibility</h2>
+                                <p>
+                                We’re building an AI-based system that predicts machine failures, recommends maintenance, and visualizes data through dashboards for managers and technicians, with a prototype refined using IKEA or sample data and user feedback.
+                                </p>
+                            </div>
+                            <img src="Images/Feasibility.png" alt="Feasibility" class="dt-image">
+                        </div>
+
+                        <div class="dt-div">
+                            <img src="Images/sustainability.png" alt="Sustainability" class="dt-image">
+                            <div class="dt-text">
+                                <h2>Viability</h2>
+                                <p>
+                                This solution aligns with IKEA’s sustainability and innovation goals by reducing unplanned downtime, waste, and emissions through predictive maintenance. It supports the 2030 climate-positive strategy while improving efficiency, working conditions, and people-centered design.
+                                </p>
+                            </div>
+                        </div>
+                        
+
+                        <div class="dt-div">
+                            <div class="dt-text">
+                                <h2>Sustainability</h2>
+                                <p>
+                                The solution will reduce emissions, energy use, and waste while extending equipment lifespan and improving worker safety and satisfaction.
+                                </p>
+                            </div>
+                            <img src="Images/sustainability.png" alt="Sustainability" class="dt-image">
+                        </div>
+
+                        
+
+
+
+                        <!-- <div class="dt-card">
                             <h3>🎯 Usability</h3>
-                            <p>Our users are factory workers, technicians, engineers, and managers working in IKEA’s production and logistics facilities. The main problem they face is the difficulty in tracking when machines need maintenance or repairs.
-                            Our solution is an AI-driven application that uses data from the machines, such as electricity usage and performance indicators, along with digital twin models, to predict exactly when and how maintenance should occur. The system will automatically notify the right personnel, reducing manual planning and administrative work.
+                            <p>
+                                
                             </p>
                         </div>
                         <div class="dt-card">
                             <h3>🔍 Feasibility</h3>
                             <p>
-                               The solution will be built using artificial intelligence, machine learning, and digital twin technology. The digital twin acts as a virtual version of the machine that can be used to run simulations and stress tests. The AI model learns from this data and from real machine data to predict failures and recommend maintenance schedules.
-                                Technologies that will be used include AI/ML models, digital twins, cloud computing, and data visualization tools to create dashboards. These dashboards will have different views for managers and technicians.
-                                The prototype will first be created using available IKEA data or sample data. Feedback sessions and scenario-based testing will be used to refine the design and usability.
+                              We’re building an AI-based system that predicts machine failures, recommends maintenance, and visualizes data through dashboards for managers and technicians, with a prototype refined using IKEA or sample data and user feedback.
                             </p>
                         </div>
                         <div class="dt-card">
                             <h3>💡 Viability</h3>
                             <p>
-                                This idea fits closely with IKEA’s operations and values. IKEA runs large, automated facilities where unplanned downtime is expensive and inefficient. By predicting failures and scheduling maintenance ahead of time, the solution helps IKEA stay efficient and reduce waste.
-                                    The project supports IKEA’s 2030 climate-positive strategy by minimizing the use of spare parts, lowering emissions, and reducing wasted energy. It also improves working conditions by reducing conflicts about maintenance timing and allowing technicians to focus on their expertise rather than administrative work.
-                                    The concept reflects IKEA’s values of sustainability, innovation, and people-centered design, while improving operational efficiency and environmental responsibility.
+                                This solution aligns with IKEA’s sustainability and innovation goals by reducing unplanned downtime, waste, and emissions through predictive maintenance. It supports the 2030 climate-positive strategy while improving efficiency, working conditions, and people-centered design.
                             </p>
                         </div>
                         <div class="dt-card">
                             <h3>🌱 Sustainability</h3>
                             <p>
-                               Positive impacts include reduced emissions and energy use, fewer wasted materials and spare parts, longer equipment lifespan, and improved worker safety and satisfaction. Predictive maintenance ensures that machines operate efficiently and reduces the risk of sudden breakdowns.
-                                Risks include potential data bias or inaccuracy if the AI model is trained on incomplete or poor-quality data, increased energy or computing resources required for simulations, and possible exclusion of workers who are less familiar with digital tools. These risks can be managed through proper data validation, efficient computing infrastructure, and training for users.
+                               The solution will reduce emissions, energy use, and waste while extending equipment lifespan and improving worker safety and satisfaction.
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="Results" class="section">
+            <h2>Expected Results</h2>
+            <div class="content">
+                <ul>
+                    <li>Decrease unplanned downtime by up to 30%, boosting productivity and reducing costs.</li>
+                    <li>Lower maintenance costs by up to 25% through optimized scheduling and resource use.</li>
+                    <li>Cut energy consumption by up to 20% with efficient machine operation.</li>
+                    <li>Reduce waste generation by up to 15% via proactive maintenance.</li>
+                    <li>Enhance worker safety and satisfaction with better working conditions.</li>
+                </ul>
+            </div>
+        </section>
+
         <!-- Background Information Section -->
-        <section id="background" class="section">
+        <section id="background" class="section section-alt">
             <div class="container">
-                <h2>Background Information</h2>
-                <div class="content">
-                   <h3>Our Team</h3>
+                <h2>The Team</h2>
                     <div class="team-info">
-                        <div class="team-photo">
-                            <img src="https://via.placeholder.com/600x400/4A90E2/ffffff?text=Team+Photo" 
-                                 alt="Team Photo" 
-                                 class="team-image">
-                            <p class="caption">Our amazing team working together</p>
-                        </div>
                         <div class="team-members">
-                            <h4>Team Members:</h4>
-                            <div class="team-columns">
-                                <ul>
-                                    <li>Annika Möller - UI/UX Designer/Project manager
-                                        <ul>                           
-                                            <li><a href="https://github.com/AnnikaMoller" target="_blank">GitHub</a></li>
-                                            <li><a href="mailto:annikamo@chalmers.se" target="_blank">Mail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>Elliot Markström Stenhammar  - Frontend Developer
-                                        <ul>
-                                            <li><a href="https://github.com/ElliotMS" target="_blank">GitHub</a></li>
-                                            <li><a href="mailto:elliotma@chalmers.se" target="_blank">Mail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>Isaac Ketto  - Backend Developer
-                                        <ul>
-                                            <li><a href="https://github.com/IsaacKetto" target="_blank">GitHub</a></li>
-                                            <li><a href="mailto:ketto@chalmers.se" target="_blank">Mail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>Melker Östling - UI/UX Designer
-                                        <ul>
-                                            <li><a href="https://github.com/zefzen" target="_blank">GitHub</a></li>
-                                            <li><a href="mailto:melkero@chalmers.se" target="_blank">Mail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>Oscar Eklund - Data Scientist
-                                        <ul>
-                                            <li><a href="https://github.com/Ekan04" target="_blank">GitHub</a></li>    
-                                            <li><a href="mailto:oscarekl@chalmers.se" target="_blank">Mail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>William Åkerström - DevOps Engineer
-                                        <ul>
-                                            <li><a href="https://github.com/Aurit1" target="_blank">GitHub</a></li>
-                                            <li><a href="mailto:wilake@chalmers.se" target="_blank">Mail</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul>
+                                <li>
+                                    <div class="team-member-card">
+                                        <img src="Images/Annika.jpg" alt="Annika Möller" class="team-photo">
+                                        <b class="team-member-name">Annika Möller</b>
+                                        <p class="role">Project manager</p>
+                                        <div>
+                                            <a href="https://github.com/AnnikaMoller" target="_blank">GitHub</a>
+                                            <a href="mailto:annikamo@chalmers.se" target="_blank">Mail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="team-member-card">
+                                        <img src="Images/Elliot.jpg" alt="Elliot Markström Stenhammar" class="team-photo">
+                                        <b class="team-member-name">Elliot Markström Stenhammar</b>
+                                        <p class="role">Frontend Developer</p>
+                                        <div>
+                                            <a href="https://github.com/ElliotMS" target="_blank">GitHub</a>
+                                            <a href="mailto:elliotma@chalmers.se" target="_blank">Mail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="team-member-card">
+                                        <img src="Images/Isaac.jpg" alt="Isaac Ketto" class="team-photo">   
+                                        <b class="team-member-name">Isaac Ketto</b>
+                                        <p class="role">Backend Developer</p>
+                                        <div>
+                                            <a href="https://github.com/IsaacKetto" target="_blank">GitHub</a>
+                                            <a href="mailto:ketto@chalmers.se" target="_blank">Mail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="team-member-card">
+                                        <img src="Images/Melker.jpg" alt="Melker Östling" class="team-photo">
+                                        <b class="team-member-name">Melker Östling</b>
+                                        <p class="role">UI/UX Designer</p>
+                                        <div>
+                                            <a href="https://github.com/zefzen" target="_blank">GitHub</a>
+                                            <a href="mailto:melkero@chalmers.se" target="_blank">Mail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="team-member-card">
+                                        <img src="Images/Oscar.jpg" alt="Oscar Eklund" class="team-photo">
+                                        <b class="team-member-name">Oscar Eklund</b>
+                                        <p class="role">Data Scientist</p>
+                                        <div>
+                                            <a href="https://github.com/Ekan04" target="_blank">GitHub</a>
+                                            <a href="mailto:oscarekl@chalmers.se" target="_blank">Mail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="team-member-card">
+                                        <img src="Images/William.jpg" alt="William Åkerström" class="team-photo">
+                                        <b class="team-member-name">William Åkerström</b>
+                                        <p class="role">DevOps Engineer</p>
+                                        <div>
+                                            <a href="https://github.com/Aurit1" target="_blank">GitHub</a>
+                                            <a href="mailto:wilake@chalmers.se" target="_blank">Mail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+            </div>
+        </section>
+
+        <section id="course" class="section">
+            <div class="container">
+                <h2>Course Information</h2>
+                <div class="content">
+                    <h3>TEK830 - Team 2 - Predictive Maintenance Innovation</h3>
+                    <p>
+                        This project is part of the TEK830 - Innovation Project course at Chalmers University of Technology. 
+                        The course focuses on applying design thinking principles to real-world problems, encouraging 
+                        creativity, collaboration, and user-centered design.
+                    </p>
+                </div>
             </div>
         </section>
 
@@ -171,24 +248,21 @@
                     <div class="references-list">
                         <ol>
                             <li>
-                                Brown, T. (2008). Design Thinking. <em>Harvard Business Review</em>, 86(6), 84-92.
+                                Sullivan, G. P., Pugh, R., Melendez, A. P., & Hunt, W. D. (2010). Operations & Maintenance Best Practices Guide: Release 3.0 (U.S. Department of Energy, Federal Energy Management Program).  <a href="https://www.energy.gov/sites/prod/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf">https://www.energy.gov/sites/prod/files/2020/04/f74/omguide_complete_w-eo-disclaimer.pdf</a>   
                             </li>
                             <li>
-                                Norman, D. A. (2013). <em>The Design of Everyday Things: Revised and Expanded Edition</em>. 
-                                Basic Books.
+                                Van Loon, D. (2024, September 5). Reducing excess energy consumption in industrial equipment through condition monitoring in the manufacturing industry. Nanoprecise. <a href="https://nanoprecise.io/blog/reducing-excess-energy-consumption-in-industrial-equipment-through-condition-monitoring-in-the-manufacturing-industry/">https://nanoprecise.io/blog/reducing-excess-energy-consumption-in-industrial-equipment-through-condition-monitoring-in-the-manufacturing-industry/</a>
                             </li>
                             <li>
-                                IDEO. (2015). The Field Guide to Human-Centered Design. 
-                                Retrieved from https://www.designkit.org/
+                                Garibian, E. (2024). HVAC Predictive Maintenance: Slash Energy Costs. LLumin. <a href="https://llumin.com/hvac-predictive-maintenance-slash-energy-costs/">https://llumin.com/hvac-predictive-maintenance-slash-energy-costs/</a>
                             </li>
                             <li>
-                                Kelley, T., & Kelley, D. (2013). <em>Creative Confidence: Unleashing the Creative 
-                                Potential Within Us All</em>. Crown Business.
+                                ProValet. (n.d.). Predictive maintenance case studies. <a href="https://www.provalet.io/guides-posts/predictive-maintenance-case-studies">https://www.provalet.io/guides-posts/predictive-maintenance-case-studies</a>
+                            </li>
+                            <li>
+                                Nucleus Research. (2023, May 8). Quantifying the value of predictive maintenance (Research X98). <a href="https://nucleusresearch.com/research/single/quantifying-the-value-of-predictive-maintenance/">https://nucleusresearch.com/research/single/quantifying-the-value-of-predictive-maintenance/</a>
                             </li>
                         </ol>
-                        <p class="note">
-                            <em>Note: Please add your specific references related to your innovation project.</em>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -197,7 +271,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 AIT Innovation Project. All rights reserved.</p>
+            <p>&copy; 2025 AID Innovation Project. All rights reserved.</p>
         </div>
     </footer>
 </body>
